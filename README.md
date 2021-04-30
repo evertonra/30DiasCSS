@@ -16,4 +16,4 @@ Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.)
 O projeto deve ser concluído até 23:59
 
 <h2>Youtube Referencias dos desafios</h2>
-<a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog" target="_blank">Online Tutorials</a> - Creative Creations - DarkCode
+<a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog" target="_blank">Online Tutorials</a> - <a href="https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A" target="_blank">Creative Creations</a> - <a href="https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw" target="_blank">Darkode</a>
