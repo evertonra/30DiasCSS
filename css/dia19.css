@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: radial-gradient(50% 50% at 50% 50%, 
+  #3A4552 0%, #202833 100%); 
+  height: 100vh; 
+  padding: 0; 
+  margin: 0;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif; 
+  text-align: center; 
+  color: rgb(167, 167, 167); 
+  font-size: 30px;
+}
+
+h2{
+  color: #EC0B43; 
+  font-family: 'Oswald', sans-serif; 
+  text-align: center; 
+  font-weight: 300;
+}
+
+.box-main .box{
+  background-color: #fff;
+  width: 100%; 
+  position: relative; 
+  padding: 5%; 
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(117,117,117,0.84); 
+  box-shadow: 0px 1px 4px 0px rgba(117,117,117,0.84); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  margin-top: 8%;
+}
+
+.box{
+  background: #fff;
+  padding-top: 200px !important; 
+  padding-bottom: 200px !important;
+}
+
+ul
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li
+{
+  list-style: none;
+}
+
+ul li a
+{
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  line-height: 50px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #220bec;
+  margin: 0 10px;
+  transition: 0.5s;
+  padding: 27px;
+}
+
+ul li a span
+{
+  position: absolute;
+  transition: transform .5s;
+}
+
+ul li a span:nth-child(1),
+ul li a span:nth-child(3)
+{
+  width: 100%;
+  height: 2px;
+  background: #220bec;
+}
+
+ul li a span:nth-child(1)
+{
+  top: 0;
+  left: 0;
+  transform-origin: right;
+}
+
+ul li a:hover span:nth-child(1)
+{
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+
+ul li a span:nth-child(3)
+{
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+}
+
+ul li a:hover span:nth-child(3)
+{
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+ul li a span:nth-child(2),
+ul li a span:nth-child(4)
+{
+  width: 2px;
+  height: 100%;
+  background: #220bec;
+}
+
+ul li a span:nth-child(2)
+{
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+ul li a:hover span:nth-child(2)
+{
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+
+ul li a span:nth-child(4)
+{
+  top: 0;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+ul li a:hover span:nth-child(4)
+{
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
